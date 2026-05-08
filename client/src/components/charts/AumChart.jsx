@@ -1,10 +1,4 @@
 import { Bar } from 'react-chartjs-2'
-import {
-  Chart as ChartJS, CategoryScale, LinearScale, BarElement,
-  LineElement, PointElement, Title, Tooltip, Legend, Filler
-} from 'chart.js'
-
-ChartJS.register(CategoryScale, LinearScale, BarElement, LineElement, PointElement, Title, Tooltip, Legend, Filler)
 
 export default function AumChart({ history = [] }) {
   const labels = history.map(h => h.month)
@@ -96,12 +90,8 @@ export default function AumChart({ history = [] }) {
 
   return (
     <div style={{ position: 'relative', width: '100%', height: 200 }}>
-      <Bar
-        data={data}
-        options={options}
-        aria-label={`AUM chart showing book growth from $${aum[0]}M to $${aum[aum.length-1]}M with ${ret[ret.length-1]}% return vs ${bench[bench.length-1]}% benchmark`}
-        role="img"
-      />
+      <Bar data={data} options={options} role="img"
+        aria-label={`AUM chart: $${aum[0]}M to $${aum[aum.length-1]}M, return ${ret[ret.length-1]}% vs ${bench[bench.length-1]}% benchmark`} />
     </div>
   )
 }
