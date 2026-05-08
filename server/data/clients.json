@@ -1,0 +1,350 @@
+[
+  {
+    "id": "c001",
+    "firstName": "Margaret",
+    "lastName": "Russo",
+    "initials": "MR",
+    "color": "blue",
+    "aum": 4200000,
+    "mandate": "Retirement",
+    "riskProfile": "Moderate",
+    "clientSince": "2009",
+    "lastContact": "2026-04-19",
+    "daysSinceContact": 18,
+    "alertLevel": "critical",
+    "alerts": [
+      { "type": "rebalance", "severity": "critical", "message": "Tech overweight 14% after NVDA/MSFT run-up. RMD due April — taxable event risk.", "estimatedSavings": 18400 },
+      { "type": "contact", "severity": "warning", "message": "Annual review 11 months overdue." }
+    ],
+    "ytdReturn": 7.3,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 2.1,
+    "riskDrift": "above",
+    "bankingProducts": [],
+    "externalCash": 140000,
+    "accounts": [
+      { "id": "a001", "type": "IRA", "custodian": "Fidelity", "value": 2800000, "feeBased": true },
+      { "id": "a002", "type": "Brokerage", "custodian": "Fidelity", "value": 1100000, "feeBased": false },
+      { "id": "a003", "type": "Savings", "custodian": "External", "value": 140000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "NVDA", "name": "Nvidia", "value": 480000, "allocation": 11.4, "targetAllocation": 5.0, "drift": 6.4 },
+      { "ticker": "MSFT", "name": "Microsoft", "value": 390000, "allocation": 9.3, "targetAllocation": 6.0, "drift": 3.3 },
+      { "ticker": "AAPL", "name": "Apple", "value": 310000, "allocation": 7.4, "targetAllocation": 7.0, "drift": 0.4 },
+      { "ticker": "BND", "name": "Vanguard Bond ETF", "value": 840000, "allocation": 20.0, "targetAllocation": 25.0, "drift": -5.0 },
+      { "ticker": "VTI", "name": "Vanguard Total Market", "value": 1260000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 920000, "allocation": 21.9, "targetAllocation": 27.0, "drift": -5.1 }
+    ],
+    "meetings": [],
+    "notes": "Daughter started college this fall. Interested in charitable giving — donates ~$40K/yr to St. Jude. Considering CRT. Widowed, 2 adult children.",
+    "tags": ["rmd", "rebalance-needed", "no-banking", "overdue-review"],
+    "aumHistory": [3800000, 3850000, 3920000, 3980000, 4010000, 4060000, 4100000, 4120000, 4150000, 4180000, 4200000, 4200000]
+  },
+  {
+    "id": "c002",
+    "firstName": "David",
+    "lastName": "Kim",
+    "initials": "DK",
+    "color": "teal",
+    "aum": 1800000,
+    "mandate": "Growth",
+    "riskProfile": "Aggressive",
+    "clientSince": "2017",
+    "lastContact": "2026-04-22",
+    "daysSinceContact": 15,
+    "alertLevel": "review",
+    "alerts": [
+      { "type": "performance", "severity": "warning", "message": "YTD return 5.1% — lagging book avg of 6.8%." },
+      { "type": "opportunity", "severity": "info", "message": "Brokerage account eligible for fee-based conversion." }
+    ],
+    "ytdReturn": 5.1,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 4.2,
+    "riskDrift": "on-target",
+    "bankingProducts": ["Checking"],
+    "externalCash": 0,
+    "accounts": [
+      { "id": "a004", "type": "Brokerage", "custodian": "Schwab", "value": 1100000, "feeBased": false },
+      { "id": "a005", "type": "Roth IRA", "custodian": "Schwab", "value": 700000, "feeBased": true }
+    ],
+    "holdings": [
+      { "ticker": "QQQ", "name": "Nasdaq ETF", "value": 540000, "allocation": 30.0, "targetAllocation": 28.0, "drift": 2.0 },
+      { "ticker": "TSLA", "name": "Tesla", "value": 270000, "allocation": 15.0, "targetAllocation": 10.0, "drift": 5.0 },
+      { "ticker": "VTI", "name": "Vanguard Total Market", "value": 540000, "allocation": 30.0, "targetAllocation": 35.0, "drift": -5.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 450000, "allocation": 25.0, "targetAllocation": 27.0, "drift": -2.0 }
+    ],
+    "meetings": [
+      { "id": "m001", "date": "2026-05-07", "time": "14:30", "duration": 45, "type": "Portfolio Review", "format": "in-person", "agenda": "Performance review, crypto discussion, fee-based conversion" }
+    ],
+    "notes": "Tech entrepreneur, sold startup in 2021. Interested in crypto exposure. Wants aggressive growth. Wife Sarah is beneficiary. Plays golf on weekends — good relationship touchpoint.",
+    "tags": ["fee-based-opportunity", "crypto-interest", "underperforming"],
+    "aumHistory": [1600000, 1620000, 1650000, 1680000, 1700000, 1720000, 1740000, 1760000, 1770000, 1780000, 1790000, 1800000]
+  },
+  {
+    "id": "c003",
+    "firstName": "Sandra",
+    "lastName": "Larkin",
+    "spouseName": "Tom",
+    "initials": "SL",
+    "color": "purple",
+    "aum": 3100000,
+    "mandate": "Income",
+    "riskProfile": "Conservative",
+    "clientSince": "2011",
+    "lastContact": "2026-04-03",
+    "daysSinceContact": 34,
+    "alertLevel": "critical",
+    "alerts": [
+      { "type": "rmd", "severity": "critical", "message": "Tom turns 73 in June — first RMD year. Planning window closing." },
+      { "type": "contact", "severity": "critical", "message": "34 days since last contact. Annual review 13 months overdue." },
+      { "type": "duration", "severity": "warning", "message": "Long-duration bond exposure elevated as 10-yr yield approaches 4.5%." }
+    ],
+    "ytdReturn": 3.8,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 5.0,
+    "riskDrift": "below",
+    "bankingProducts": ["Checking", "HELOC"],
+    "externalCash": 80000,
+    "accounts": [
+      { "id": "a006", "type": "Traditional IRA", "custodian": "Merrill", "value": 1800000, "feeBased": true },
+      { "id": "a007", "type": "Joint Brokerage", "custodian": "Merrill", "value": 1000000, "feeBased": false },
+      { "id": "a008", "type": "Savings", "custodian": "External", "value": 80000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "TLT", "name": "20+ Yr Bond ETF", "value": 620000, "allocation": 20.0, "targetAllocation": 15.0, "drift": 5.0 },
+      { "ticker": "BND", "name": "Vanguard Bond ETF", "value": 930000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "VYM", "name": "High Dividend ETF", "value": 620000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 },
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 465000, "allocation": 15.0, "targetAllocation": 20.0, "drift": -5.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 465000, "allocation": 15.0, "targetAllocation": 15.0, "drift": 0.0 }
+    ],
+    "meetings": [],
+    "notes": "Tom is retired professor, Sandra is a nurse practitioner (semi-retired). 3 adult children, 5 grandchildren. Conservative — do NOT discuss speculative positions. Tom is detail-oriented, always wants the math shown.",
+    "tags": ["rmd-imminent", "overdue-contact", "overdue-review", "bond-risk", "fee-based-opportunity"],
+    "aumHistory": [3200000, 3180000, 3160000, 3150000, 3140000, 3130000, 3120000, 3110000, 3105000, 3100000, 3100000, 3100000]
+  },
+  {
+    "id": "c004",
+    "firstName": "Patricia",
+    "lastName": "Walsh",
+    "initials": "PW",
+    "color": "amber",
+    "aum": 920000,
+    "mandate": "Balanced",
+    "riskProfile": "Moderate",
+    "clientSince": "2019",
+    "lastContact": "2026-04-15",
+    "daysSinceContact": 22,
+    "alertLevel": "review",
+    "alerts": [
+      { "type": "contact", "severity": "warning", "message": "22 days since contact. Annual review due in 6 weeks." }
+    ],
+    "ytdReturn": 6.2,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 8.5,
+    "riskDrift": "on-target",
+    "bankingProducts": ["Savings"],
+    "externalCash": 55000,
+    "accounts": [
+      { "id": "a009", "type": "401k Rollover", "custodian": "Fidelity", "value": 680000, "feeBased": true },
+      { "id": "a010", "type": "Savings", "custodian": "Internal", "value": 240000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 276000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "VXUS", "name": "Intl ETF", "value": 184000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 },
+      { "ticker": "BND", "name": "Bond ETF", "value": 276000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 184000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 }
+    ],
+    "meetings": [],
+    "notes": "Recently divorced, managing finances solo for first time. Needs clear explanations. Risk-averse. Daughter in college — 529 underfunded. Good upsell opportunity for financial planning package.",
+    "tags": ["overdue-contact", "529-opportunity", "recently-divorced"],
+    "aumHistory": [820000, 840000, 855000, 862000, 875000, 882000, 890000, 898000, 905000, 910000, 916000, 920000]
+  },
+  {
+    "id": "c005",
+    "firstName": "James",
+    "lastName": "O'Brien",
+    "initials": "JO",
+    "color": "teal",
+    "aum": 2400000,
+    "mandate": "Retirement",
+    "riskProfile": "Moderate",
+    "clientSince": "2013",
+    "lastContact": "2026-04-26",
+    "daysSinceContact": 11,
+    "alertLevel": "none",
+    "alerts": [],
+    "ytdReturn": 7.1,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 3.2,
+    "riskDrift": "on-target",
+    "bankingProducts": ["Checking", "Savings", "Credit Card"],
+    "externalCash": 0,
+    "accounts": [
+      { "id": "a011", "type": "Traditional IRA", "custodian": "Schwab", "value": 1600000, "feeBased": true },
+      { "id": "a012", "type": "Roth IRA", "custodian": "Schwab", "value": 500000, "feeBased": true },
+      { "id": "a013", "type": "Joint Brokerage", "custodian": "Schwab", "value": 300000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 720000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "VXUS", "name": "Intl ETF", "value": 360000, "allocation": 15.0, "targetAllocation": 15.0, "drift": 0.0 },
+      { "ticker": "BND", "name": "Bond ETF", "value": 840000, "allocation": 35.0, "targetAllocation": 35.0, "drift": 0.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 480000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 }
+    ],
+    "meetings": [],
+    "notes": "Retired police chief. Very organized. Manages his own spreadsheets — appreciates data. Wife Mary is also a client (separate account). Strong referral source — 3 referrals YTD.",
+    "tags": ["strong-relationship", "referral-source", "fully-banked"],
+    "aumHistory": [2100000, 2130000, 2160000, 2200000, 2230000, 2260000, 2290000, 2320000, 2350000, 2370000, 2390000, 2400000]
+  },
+  {
+    "id": "c006",
+    "firstName": "Carol",
+    "lastName": "Foster",
+    "spouseName": "Neil",
+    "initials": "CF",
+    "color": "red",
+    "aum": 5600000,
+    "mandate": "Estate",
+    "riskProfile": "Moderate-Conservative",
+    "clientSince": "2007",
+    "lastContact": "2026-05-01",
+    "daysSinceContact": 6,
+    "alertLevel": "none",
+    "alerts": [],
+    "ytdReturn": 6.5,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 4.1,
+    "riskDrift": "on-target",
+    "bankingProducts": ["Checking", "Savings", "HELOC", "Credit Card"],
+    "externalCash": 0,
+    "accounts": [
+      { "id": "a014", "type": "Trust", "custodian": "Fidelity", "value": 3200000, "feeBased": true },
+      { "id": "a015", "type": "Traditional IRA", "custodian": "Fidelity", "value": 1400000, "feeBased": true },
+      { "id": "a016", "type": "Roth IRA", "custodian": "Fidelity", "value": 600000, "feeBased": true },
+      { "id": "a017", "type": "Joint Brokerage", "custodian": "Fidelity", "value": 400000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 1120000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 },
+      { "ticker": "VXUS", "name": "Intl ETF", "value": 560000, "allocation": 10.0, "targetAllocation": 10.0, "drift": 0.0 },
+      { "ticker": "BND", "name": "Bond ETF", "value": 1680000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "NVDA", "name": "Nvidia", "value": 1120000, "allocation": 20.0, "targetAllocation": 15.0, "drift": 5.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 1120000, "allocation": 20.0, "targetAllocation": 25.0, "drift": -5.0 }
+    ],
+    "meetings": [
+      { "id": "m002", "date": "2026-05-07", "time": "10:00", "duration": 60, "type": "Estate Planning Review", "format": "zoom", "agenda": "Trust update (new grandchild), NVDA gifting strategy, beneficiary review" }
+    ],
+    "notes": "Neil is a retired surgeon. Carol manages the family finances day-to-day. New grandchild born September 2025 — trust needs updating. NVDA position appreciated 38% since last review. Estate attorney is David Greenfield at Greenfield & Associates.",
+    "tags": ["estate-planning", "trust-update-needed", "nvda-gifting", "premium-client"],
+    "aumHistory": [5000000, 5080000, 5150000, 5220000, 5300000, 5360000, 5420000, 5460000, 5500000, 5540000, 5570000, 5600000]
+  },
+  {
+    "id": "c007",
+    "firstName": "Robert",
+    "lastName": "Patel",
+    "initials": "RP",
+    "color": "blue",
+    "aum": 1100000,
+    "mandate": "Growth",
+    "riskProfile": "Aggressive",
+    "clientSince": "2021",
+    "lastContact": "2026-04-28",
+    "daysSinceContact": 9,
+    "alertLevel": "info",
+    "alerts": [
+      { "type": "opportunity", "severity": "info", "message": "Eligible for managed account program — $50K minimum met on all accounts." }
+    ],
+    "ytdReturn": 8.4,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 5.1,
+    "riskDrift": "above",
+    "bankingProducts": ["Checking"],
+    "externalCash": 120000,
+    "accounts": [
+      { "id": "a018", "type": "Brokerage", "custodian": "Schwab", "value": 750000, "feeBased": false },
+      { "id": "a019", "type": "Roth IRA", "custodian": "Schwab", "value": 350000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "QQQ", "name": "Nasdaq ETF", "value": 385000, "allocation": 35.0, "targetAllocation": 30.0, "drift": 5.0 },
+      { "ticker": "NVDA", "name": "Nvidia", "value": 220000, "allocation": 20.0, "targetAllocation": 15.0, "drift": 5.0 },
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 275000, "allocation": 25.0, "targetAllocation": 30.0, "drift": -5.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 220000, "allocation": 20.0, "targetAllocation": 25.0, "drift": -5.0 }
+    ],
+    "meetings": [],
+    "notes": "Software engineer at Google. Very investment-literate, reads Bloomberg daily. Interested in individual stock picks. Potential to grow book significantly — expects promotion and RSU vesting in 2027.",
+    "tags": ["managed-account-eligible", "idle-cash", "high-growth-potential"],
+    "aumHistory": [900000, 930000, 950000, 970000, 990000, 1010000, 1030000, 1050000, 1065000, 1080000, 1092000, 1100000]
+  },
+  {
+    "id": "c008",
+    "firstName": "Linda",
+    "lastName": "Hoffmann",
+    "initials": "LH",
+    "color": "purple",
+    "aum": 780000,
+    "mandate": "Income",
+    "riskProfile": "Conservative",
+    "clientSince": "2015",
+    "lastContact": "2026-04-20",
+    "daysSinceContact": 17,
+    "alertLevel": "none",
+    "alerts": [],
+    "ytdReturn": 4.1,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 10.2,
+    "riskDrift": "below",
+    "bankingProducts": ["Checking", "Savings"],
+    "externalCash": 25000,
+    "accounts": [
+      { "id": "a020", "type": "Traditional IRA", "custodian": "Vanguard", "value": 580000, "feeBased": true },
+      { "id": "a021", "type": "Savings", "custodian": "Internal", "value": 200000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "BND", "name": "Bond ETF", "value": 312000, "allocation": 40.0, "targetAllocation": 40.0, "drift": 0.0 },
+      { "ticker": "VYM", "name": "High Dividend ETF", "value": 234000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 156000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 78000, "allocation": 10.0, "targetAllocation": 10.0, "drift": 0.0 }
+    ],
+    "meetings": [],
+    "notes": "Retired teacher. Lives on pension + IRA distributions. Very cautious — lost money in 2008, never forgot. Prefers phone calls to Zoom. Sends thank-you notes.",
+    "tags": ["income-focus", "conservative", "phone-preferred"],
+    "aumHistory": [750000, 752000, 755000, 758000, 760000, 763000, 766000, 769000, 772000, 775000, 778000, 780000]
+  },
+  {
+    "id": "c009",
+    "firstName": "Thomas",
+    "lastName": "Murphy",
+    "spouseName": "Ann",
+    "initials": "TM",
+    "color": "amber",
+    "aum": 2900000,
+    "mandate": "Estate",
+    "riskProfile": "Moderate",
+    "clientSince": "2010",
+    "lastContact": "2026-04-14",
+    "daysSinceContact": 23,
+    "alertLevel": "review",
+    "alerts": [
+      { "type": "beneficiary", "severity": "warning", "message": "Beneficiary designations not updated since 2018. Son recently married." }
+    ],
+    "ytdReturn": 6.9,
+    "benchmarkReturn": 5.1,
+    "cashPosition": 3.8,
+    "riskDrift": "on-target",
+    "bankingProducts": ["Checking", "Savings", "HELOC"],
+    "externalCash": 0,
+    "accounts": [
+      { "id": "a022", "type": "Trust", "custodian": "Fidelity", "value": 1800000, "feeBased": true },
+      { "id": "a023", "type": "Traditional IRA", "custodian": "Fidelity", "value": 700000, "feeBased": true },
+      { "id": "a024", "type": "Joint Brokerage", "custodian": "Fidelity", "value": 400000, "feeBased": false }
+    ],
+    "holdings": [
+      { "ticker": "VTI", "name": "Total Market ETF", "value": 870000, "allocation": 30.0, "targetAllocation": 30.0, "drift": 0.0 },
+      { "ticker": "VXUS", "name": "Intl ETF", "value": 290000, "allocation": 10.0, "targetAllocation": 10.0, "drift": 0.0 },
+      { "ticker": "BND", "name": "Bond ETF", "value": 1160000, "allocation": 40.0, "targetAllocation": 40.0, "drift": 0.0 },
+      { "ticker": "CASH", "name": "Cash & Equivalents", "value": 580000, "allocation": 20.0, "targetAllocation": 20.0, "drift": 0.0 }
+    ],
+    "meetings": [],
+    "notes": "Tom is a retired CPA, still does his own taxes. Ann is involved in all decisions. Son Patrick married in 2025 — beneficiary update critical. Referred 2 clients this year.",
+    "tags": ["beneficiary-update-needed", "estate-planning", "referral-source"],
+    "aumHistory": [2600000, 2640000, 2680000, 2720000, 2760000, 2790000, 2820000, 2845000, 2865000, 2880000, 2892000, 2900000]
+  }
+]

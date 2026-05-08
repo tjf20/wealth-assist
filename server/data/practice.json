@@ -1,0 +1,124 @@
+{
+  "advisor": {
+    "id": "fa001",
+    "name": "James Whitfield",
+    "initials": "JW",
+    "title": "Senior Financial Advisor",
+    "branch": "Boston - Back Bay",
+    "team": "Whitfield Wealth Group"
+  },
+  "compensation": {
+    "year": 2025,
+    "target": 520000,
+    "earned": 387000,
+    "pct": 74,
+    "projection": 535000,
+    "onTrack": true,
+    "quarterly": [
+      { "quarter": "Q1", "earned": 94000, "target": 130000 },
+      { "quarter": "Q2", "earned": 101000, "target": 130000 },
+      { "quarter": "Q3", "earned": 112000, "target": 130000 },
+      { "quarter": "Q4", "earned": 80000, "target": 130000, "projected": 138000 }
+    ]
+  },
+  "hurdles": [
+    {
+      "id": "h1",
+      "name": "Net new households",
+      "current": 8,
+      "target": 12,
+      "unit": "households",
+      "pct": 67,
+      "status": "at-risk",
+      "weeksLeft": 10,
+      "aiNudge": "3 existing clients have mentioned family members — warm intros are fastest path."
+    },
+    {
+      "id": "h2",
+      "name": "Fee-based AUM shift",
+      "current": 12400000,
+      "target": 15000000,
+      "unit": "dollars",
+      "pct": 83,
+      "status": "on-track",
+      "weeksLeft": 10,
+      "aiNudge": "David Kim's $340K brokerage + Tom Murphy's $400K brokerage — 2 conversions gets you there."
+    },
+    {
+      "id": "h3",
+      "name": "New banking products",
+      "current": 4,
+      "target": 10,
+      "unit": "products",
+      "pct": 40,
+      "status": "behind",
+      "weeksLeft": 10,
+      "aiNudge": "6 clients with idle cash identified. Margaret Russo alone = 2 products (HYSA + credit line)."
+    },
+    {
+      "id": "h4",
+      "name": "Annual reviews completed",
+      "current": 31,
+      "target": 47,
+      "unit": "reviews",
+      "pct": 66,
+      "status": "at-risk",
+      "weeksLeft": 10,
+      "aiNudge": "16 reviews outstanding. Larkins are most overdue at 13 months."
+    },
+    {
+      "id": "h5",
+      "name": "Referrals generated",
+      "current": 6,
+      "target": 6,
+      "unit": "referrals",
+      "pct": 100,
+      "status": "complete",
+      "weeksLeft": 10,
+      "aiNudge": null
+    },
+    {
+      "id": "h6",
+      "name": "Managed account opens",
+      "current": 7,
+      "target": 8,
+      "unit": "accounts",
+      "pct": 88,
+      "status": "on-track",
+      "weeksLeft": 10,
+      "aiNudge": "Robert Patel is eligible — one conversation away."
+    }
+  ],
+  "bookHealth": {
+    "totalClients": 47,
+    "totalAum": 68400000,
+    "aumMtdChange": 2800000,
+    "ytdReturn": 6.8,
+    "benchmarkReturn": 5.1,
+    "clientsAboveBenchmark": 31,
+    "atRiskAum": 2100000,
+    "atRiskClients": 3,
+    "overdueContact": 7,
+    "overdueReview": 16,
+    "segments": [
+      { "name": "Premium ($3M+)", "count": 9, "healthy": 6, "review": 2, "atRisk": 1 },
+      { "name": "Mid ($1M–$3M)", "count": 16, "healthy": 11, "review": 4, "atRisk": 1 },
+      { "name": "Core (<$1M)", "count": 22, "healthy": 16, "review": 3, "atRisk": 3 }
+    ],
+    "aumHistory": [
+      { "month": "May 25", "aum": 61200000, "bookReturn": 1.2, "benchmark": 0.8 },
+      { "month": "Jun", "aum": 62100000, "bookReturn": 1.8, "benchmark": 1.2 },
+      { "month": "Jul", "aum": 62800000, "bookReturn": 2.4, "benchmark": 1.9 },
+      { "month": "Aug", "aum": 63500000, "bookReturn": 2.9, "benchmark": 2.1 },
+      { "month": "Sep", "aum": 64000000, "bookReturn": 3.5, "benchmark": 2.6 },
+      { "month": "Oct", "aum": 64800000, "bookReturn": 3.8, "benchmark": 2.9 },
+      { "month": "Nov", "aum": 65200000, "bookReturn": 4.2, "benchmark": 3.2 },
+      { "month": "Dec", "aum": 65900000, "bookReturn": 4.6, "benchmark": 3.5 },
+      { "month": "Jan 26", "aum": 66100000, "bookReturn": 5.1, "benchmark": 3.9 },
+      { "month": "Feb", "aum": 66800000, "bookReturn": 5.6, "benchmark": 4.2 },
+      { "month": "Mar", "aum": 67400000, "bookReturn": 6.1, "benchmark": 4.6 },
+      { "month": "Apr", "aum": 67900000, "bookReturn": 6.5, "benchmark": 4.9 },
+      { "month": "May", "aum": 68400000, "bookReturn": 6.8, "benchmark": 5.1 }
+    ]
+  }
+}

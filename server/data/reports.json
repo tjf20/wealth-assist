@@ -1,0 +1,68 @@
+[
+  {
+    "id": "r001",
+    "title": "Margaret Russo — Q1 2026 Portfolio Summary",
+    "clientId": "c001",
+    "clientName": "Margaret Russo",
+    "type": "Performance",
+    "createdAt": "2026-04-02T10:15:00Z",
+    "generatedBy": "AI",
+    "status": "final",
+    "tags": ["quarterly", "performance", "retirement"]
+  },
+  {
+    "id": "r002",
+    "title": "Carol & Neil Foster — Estate Planning Review Brief",
+    "clientId": "c006",
+    "clientName": "Carol & Neil Foster",
+    "type": "Meeting Brief",
+    "createdAt": "2026-05-06T16:30:00Z",
+    "generatedBy": "AI",
+    "status": "draft",
+    "tags": ["estate", "meeting-prep", "trust"]
+  },
+  {
+    "id": "r003",
+    "title": "Book Health Summary — April 2026",
+    "clientId": null,
+    "clientName": "All Clients",
+    "type": "Book Analysis",
+    "createdAt": "2026-05-01T09:00:00Z",
+    "generatedBy": "AI",
+    "status": "final",
+    "tags": ["book", "monthly", "management"]
+  },
+  {
+    "id": "r004",
+    "title": "Sandra & Tom Larkin — RMD Planning Analysis",
+    "clientId": "c003",
+    "clientName": "Sandra & Tom Larkin",
+    "type": "Tax Planning",
+    "createdAt": "2026-04-15T14:20:00Z",
+    "generatedBy": "AI",
+    "status": "final",
+    "tags": ["rmd", "tax", "retirement"]
+  },
+  {
+    "id": "r005",
+    "title": "Banking Opportunity Analysis — Idle Cash Clients",
+    "clientId": null,
+    "clientName": "6 Clients",
+    "type": "Opportunity",
+    "createdAt": "2026-05-05T11:00:00Z",
+    "generatedBy": "AI",
+    "status": "draft",
+    "tags": ["banking", "practice", "opportunity"]
+  },
+  {
+    "id": "r006",
+    "title": "David Kim — Fee-Based Conversion Proposal",
+    "clientId": "c002",
+    "clientName": "David Kim",
+    "type": "Proposal",
+    "createdAt": "2026-04-28T13:45:00Z",
+    "generatedBy": "AI",
+    "status": "final",
+    "tags": ["fee-based", "brokerage", "conversion"]
+  }
+]

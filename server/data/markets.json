@@ -1,0 +1,89 @@
+{
+  "indices": [
+    { "symbol": "SPX", "name": "S&P 500", "price": 5631.22, "change": 44.89, "changePct": 0.80, "direction": "up" },
+    { "symbol": "NDX", "name": "Nasdaq 100", "price": 17842.10, "change": 194.23, "changePct": 1.10, "direction": "up" },
+    { "symbol": "DJI", "name": "Dow Jones", "price": 39812.56, "change": -88.40, "changePct": -0.22, "direction": "down" },
+    { "symbol": "TNX", "name": "10-yr Treasury", "price": 4.42, "change": 0.08, "changePct": 1.84, "direction": "up", "isRate": true },
+    { "symbol": "VIX", "name": "VIX", "price": 18.4, "change": -0.6, "changePct": -3.15, "direction": "down" }
+  ],
+  "watchlist": [
+    { "symbol": "NVDA", "name": "Nvidia Corp", "price": 878.20, "change": 20.61, "changePct": 2.40, "direction": "up", "clientsHolding": 3 },
+    { "symbol": "AAPL", "name": "Apple Inc", "price": 189.40, "change": 1.13, "changePct": 0.60, "direction": "up", "clientsHolding": 4 },
+    { "symbol": "MSFT", "name": "Microsoft Corp", "price": 414.80, "change": 4.52, "changePct": 1.10, "direction": "up", "clientsHolding": 2 },
+    { "symbol": "JPM", "name": "JPMorgan Chase", "price": 196.30, "change": -0.79, "changePct": -0.40, "direction": "down", "clientsHolding": 0 },
+    { "symbol": "BRK.B", "name": "Berkshire Hathaway B", "price": 368.10, "change": 0.37, "changePct": 0.10, "direction": "up", "clientsHolding": 0 },
+    { "symbol": "TSLA", "name": "Tesla Inc", "price": 172.60, "change": -3.45, "changePct": -1.96, "direction": "down", "clientsHolding": 1 },
+    { "symbol": "TLT", "name": "iShares 20+ Yr Bond ETF", "price": 90.60, "change": -0.64, "changePct": -0.70, "direction": "down", "clientsHolding": 5 },
+    { "symbol": "GLD", "name": "SPDR Gold Shares", "price": 218.40, "change": 0.65, "changePct": 0.30, "direction": "up", "clientsHolding": 0 },
+    { "symbol": "VTI", "name": "Vanguard Total Market", "price": 238.14, "change": 1.90, "changePct": 0.80, "direction": "up", "clientsHolding": 9 },
+    { "symbol": "BND", "name": "Vanguard Bond ETF", "price": 74.82, "change": -0.52, "changePct": -0.69, "direction": "down", "clientsHolding": 7 }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "headline": "Fed holds rates steady, signals one cut in H2 2026",
+      "source": "Reuters",
+      "category": "macro",
+      "impact": "neutral",
+      "clientImpact": "Bond holders may see relief if cuts materialize. Watch duration risk.",
+      "timestamp": "2026-05-07T09:30:00Z",
+      "hoursAgo": 2
+    },
+    {
+      "id": "n2",
+      "headline": "NVDA beats earnings, raises full-year guidance on AI demand surge",
+      "source": "Bloomberg",
+      "category": "equity",
+      "impact": "positive",
+      "clientImpact": "3 clients hold NVDA. Margaret Russo and Carol Foster are most overweight.",
+      "timestamp": "2026-05-07T08:00:00Z",
+      "hoursAgo": 4
+    },
+    {
+      "id": "n3",
+      "headline": "10-year yield approaches 4.5% — bond duration risk elevated",
+      "source": "WSJ",
+      "category": "fixed-income",
+      "impact": "negative",
+      "clientImpact": "8 clients hold long-duration bonds. Larkins have highest TLT exposure.",
+      "timestamp": "2026-05-07T07:15:00Z",
+      "hoursAgo": 5
+    },
+    {
+      "id": "n4",
+      "headline": "Jobs report beats expectations — unemployment holds at 4.1%",
+      "source": "CNBC",
+      "category": "macro",
+      "impact": "positive",
+      "clientImpact": "Supports equity exposure. May delay Fed cuts.",
+      "timestamp": "2026-05-06T14:00:00Z",
+      "hoursAgo": 24
+    },
+    {
+      "id": "n5",
+      "headline": "IRS updates RMD tables — new life expectancy factors effective 2026",
+      "source": "IRS.gov",
+      "category": "tax",
+      "impact": "action",
+      "clientImpact": "5 clients with RMD obligations. Larkins and Russo need immediate review.",
+      "timestamp": "2026-05-06T10:00:00Z",
+      "hoursAgo": 28
+    }
+  ],
+  "aiClientAlerts": [
+    {
+      "title": "Rising rates hurting bond holders",
+      "severity": "alert",
+      "body": "8 clients hold long-duration bond funds. TLT is down 0.7% today and 6.2% YTD. Larkins and Russo have the most exposure.",
+      "action": "Draft a proactive client note on rising rates and duration risk",
+      "actionPrompt": "Draft a brief, reassuring client email explaining the impact of rising interest rates on bond portfolios and what steps we're taking. Keep it under 200 words."
+    },
+    {
+      "title": "NVDA surge — rebalance trigger for 3 clients",
+      "severity": "watch",
+      "body": "NVDA up 2.4% today. 3 clients now exceed their tech allocation target. Margaret Russo is most overweight at +14%.",
+      "action": "See all affected clients",
+      "actionPrompt": "Which of my clients are currently over their tech allocation target after today's NVDA move? List them with their current vs target allocation."
+    }
+  ]
+}
