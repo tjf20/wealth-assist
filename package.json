@@ -6,7 +6,7 @@
     "dev":         "concurrently \"npm run server\" \"npm run client\" --names \"API,UI\" --prefix-colors \"blue,green\"",
     "server":      "cd server && npm run dev",
     "client":      "cd client && npm run dev",
-    "build":       "cd server && npm install && cd ../client && npm install && npm run build",
+    "build":       "cd server && npm install && cd ../client && rm -rf node_modules package-lock.json && npm install && npm run build",
     "start":       "NODE_ENV=production node server/index.js",
     "install:all": "npm install && cd server && npm install && cd ../client && npm install"
   },
